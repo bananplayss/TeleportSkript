@@ -1,0 +1,8 @@
+on step on barrier:
+	if player is not op:
+		send "&6Teleport in 3 seconds"
+		wait 1 tick
+		wait 3 seconds
+		teleport player to location(1, 1, 1, world "world")
+		
+		#edit the world's name and the coordinates.
